@@ -1,2 +1,2 @@
-FROM ubunut:18.04
+FROM ubuntu:18.04
 RUN apt update && apt install -y docker.io curl 
