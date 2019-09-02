@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ATOM_URL=http://47.102.119.196:31799/v1/
+http PUT ${ATOM_URL}app/update/image Namespace=$1 Name=$2 Cluster=ali-stable-7-22 Image=$3
